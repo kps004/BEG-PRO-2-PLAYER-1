@@ -7,6 +7,7 @@ void main()
  scanf("%d",&z);
  while(z>0)
  {
+  t=1;
 
  scanf("%d",&n);
  for(i=n;i>0;i--)
