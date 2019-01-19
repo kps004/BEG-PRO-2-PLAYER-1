@@ -9,6 +9,6 @@ while(b)
 i=i*a;
 b--;
 }
- printf("%d %d",a,i);
+ printf("%d",i);
 getch();
 }
