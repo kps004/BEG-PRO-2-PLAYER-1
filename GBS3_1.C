@@ -4,7 +4,7 @@
 
 int main()
 {
-    int t=0,n,a,d,i;
+    unsigned long int t=0,n,a,d,i;
     scanf("%d%d%d",&n,&a,&d);
     for(i=1;i<=n;i++)
     {
