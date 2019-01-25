@@ -10,7 +10,7 @@ Write your code in this editor and press "Run" button to compile and execute it.
 
 int main()
 {
-    int a,z,i,j,t,l;
+    int a,z,i,j,t,l,C=1;
     scanf("%d%d",&a,&z);
     for(i=a;i<=z;i++)
     {   
@@ -26,9 +26,9 @@ int main()
         }
         if(l==0)
         {
-             printf("%d ",t);
+           C++;  
         }
     }
-    
+    printf("%d",c);
     return 0;
 }
