@@ -18,7 +18,7 @@ int main()
   }
   for(i=0;i<n;i++)
   {
-      if(max<a[i])
+      if(max>a[i])
       {
           max=a[i];
       }
